@@ -1,0 +1,10 @@
+<%= form_for(@attendee) do |f| %>
+    <%= f.text_field :name %>
+    <%= f.submit "くじに参加" %>
+<% end %>
+<p>【チャレンジャーズ参加者】</p>
+<% @attendees.each do |attendee| %>
+    <p>●<%= attendee.name %></P>
+<% end %>
+
+    
