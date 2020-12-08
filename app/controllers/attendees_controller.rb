@@ -3,6 +3,7 @@ class AttendeesController < ApplicationController
     def index
         @attendee = Attendee.new
         @attendees = Attendee.all
+        @number = Number.new
     end
     
     def create

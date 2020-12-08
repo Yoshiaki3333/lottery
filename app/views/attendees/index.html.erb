@@ -7,4 +7,9 @@
     <p>●<%= attendee.name %></P>
 <% end %>
 
+<%= form_for(@number) do |f| %>
+    <%= f.number_field :number %>
+    <%= f.submit "決定する" %>
+<% end %>
+
     
