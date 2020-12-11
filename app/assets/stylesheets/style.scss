@@ -1,0 +1,168 @@
+@charset "UTF-8"
+
+html {
+font-size: 62.5%;
+}
+body {
+  height: 100%;
+  color: #333;
+  font-size: 1.5rem;
+  font-family: "Hiragino Kaku Gothic Pron", Meiryo, sans-serif;
+  position: relative;
+}
+a:link {
+  text-decoration: none;
+  color: #d03c56;
+}
+/*-----------Form--------------*/ 
+.contents.row {
+    width: 50%;
+    margin: 0 0 0 480px;
+    background: #fff;
+}
+.field {
+    margin-bottom: 10px;
+}
+input[type="email"] {
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding:10px;
+  font-size: 15px;
+  width: 50%;
+  margin: 0 auto;
+}
+input[type="password"] {
+  width: 50%;
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding:10px;
+  font-size: 15px;
+}
+input[type="submit" i] {
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border: solid #0297E0;
+    background-color: #0297E0;
+    color: #fff;
+}
+
+/*-----------HEADER--------------*/ 
+.header {
+    width: 100%;
+    background: #0297E0;
+    border: solid 1px #aaa
+}
+.title {
+    text-align: center;
+    margin: 30px auto 0;
+}
+.title a {
+    color: #fff;
+}
+
+.header_btn_area {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_menu_btn {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: solid 0.5px;
+    border-color: #FFFFFF
+}
+.header_menu_btn a {
+    color:#fff;
+}
+.top_menu {
+    margin: 40px auto 0;
+}
+/*-----------HEADER END--------------*/ 
+
+/*------------NEW START--------------*/
+.top_message {
+    text-align: center;
+}
+.global-nav {
+    text-align: center;
+}
+ul {
+    text-align: center;
+}
+.menu_btn_top {
+    width: 25%;
+    text-align: center;
+    list-style: none;
+    background-color: #0190d5;
+    border-radius: 6px;
+    margin: 20px auto 0;
+    padding: 5px 10px;
+}
+.menu_btn_top a {
+    color: #fff;
+}
+input[type="text" i] {
+    width: 25%;
+    text-align: left;
+    padding: 5px 10px;
+}
+input[type="submit" i] {
+    width: 25%;
+}
+/*------------NEW END--------------*/ 
+
+/*------------attendees-box--------------*/ 
+.attendees-box {
+    width: 50%;
+    margin: 40px auto 0;
+    text-align: center;
+    
+}
+.attendees-index {
+    position: relative;
+    
+}
+.attendees-titile {
+    width: 50%;
+    margin: 0 auto;
+}
+.attendees-number {
+    
+}
+.attendees-name {
+    position: absolute;
+    left: 30%;
+}
+/*------------number-select--------------*/
+.number-select {
+    width: 50%;
+    text-align: center;
+    margin: 40px auto 40px;
+}
+input[type="number" i] {
+    width: 30%;
+    margin-bottom: 15px;
+    padding: 5px 5px;
+}
+.select-message {
+    font-size: 2.0rem;
+}
+.sucsess-btn-area {
+}
+.btn-area {
+    list-style: none;
+    width: 35%;
+    background-color: #0190d5;
+    border-radius: 6px;
+    margin: 20px auto 0;
+    padding: 5px 10px;
+    
+}
+.btn-area a {
+    color: #fff;
+}

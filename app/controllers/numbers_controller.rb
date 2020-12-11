@@ -1,7 +1,13 @@
 class NumbersController < ApplicationController
     
+    def index
+        @number = Number.new
+        @numbers = Number.all
+    end 
+    
     def create
-        Number.create(number_params) 
+        Number.create(number_params)
+        @numbers = Number.all
     end
     
     private
