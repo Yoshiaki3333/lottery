@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  root 'attendees#new'
+  root 'attendees#index'
   resources :attendees, only: [:index, :new, :create]
-  resources :numbers, only: [:index, :create]
-  resources :winners, only: [:index]
   resources :users, only: [:index]
 end
