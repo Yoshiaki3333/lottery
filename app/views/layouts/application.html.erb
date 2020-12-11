@@ -10,26 +10,17 @@
   </head>
 
   <body>
-    <header class="header">
-      <h1 class="title"><a href="/attendees">Challengers' Lottery</a></h1>
+    <header>
+      <h1 class="title">Challengers' Lottery</h1>
         <% if user_signed_in? %>  
-          <ul class="header_btn_area">
-            <li class="header_menu_btn">
-              <%= link_to "抽選を開始", "/numbers" %>
-            </li>
-            <li class="header_menu_btn">
-              <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
-            </li>
-          <ul>
+          <div class="user_nav grid-6">
+            <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+          </div>
         <% else %>
-          <ul class="header_btn_area">
-            <li class="header_menu_btn">
-              <%= link_to "ログイン", new_user_session_path, class: "post" %>
-            </li>
-            <li class="header_menu_btn">
-              <%= link_to "新規登録", new_user_registration_path, class: "post" %>
-            </li>
-          </ul>
+          <div class="grid-6">
+            <%= link_to "ログイン", new_user_session_path, class: "post" %>
+            <%= link_to "新規登録", new_user_registration_path, class: "post" %>
+          </div>
         <% end %>
     </header>
     <%= yield %>
