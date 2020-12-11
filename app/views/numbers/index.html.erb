@@ -1,0 +1,11 @@
+<div class="number-select">
+    <h2>【当選人数】</h2>
+    <%= form_for(@number) do |f| %>
+        <div class="field">
+            <%= f.number_field :number, placeholder: "人数を選択してください" %>
+        </div>
+        <div class="field">
+            <%= f.submit "決定" %>
+        </div>
+    <% end %>
+</div>
