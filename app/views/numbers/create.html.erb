@@ -1,0 +1,13 @@
+<div class="attendees-box">
+    <p class="select-message">
+        当選人数は<%= @numbers.last.number %>人で間違いないですか？</p>
+    </p>
+    <ul class="sucsess-btn-area">
+        <li class="btn-area">
+            <%= link_to "抽選結果へ", "/winners" %>
+        </li>
+        <li class="btn-area">
+            <%= link_to "もう一度人数を選択する", "/numbers" %>
+        </li>
+    </ul>
+</div>
