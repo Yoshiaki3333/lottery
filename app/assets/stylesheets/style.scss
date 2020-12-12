@@ -141,6 +141,7 @@ input[type="submit" i] {
     text-align: left;
     margin-top: 20px;
     border-bottom:1.5px solid #ff8900; 
+    position: relative;
 }
 .attendees-name a {
   color: #000;
@@ -188,7 +189,9 @@ input[type="submit" i] {
 .attendees-name a {
     color: #000;
     padding: 0 10px;
-    margin-left: 120px;
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
 }
 .entry-btn,
 .entry-btn:hover,
