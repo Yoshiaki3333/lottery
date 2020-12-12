@@ -17,7 +17,7 @@ a:link {
 /*-----------Form--------------*/ 
 .contents.row {
     width: 50%;
-    margin: 0 0 0 480px;
+    margin: 0 40%;
     background: #fff;
 }
 .field {
@@ -118,13 +118,14 @@ input[type="submit" i] {
 
 /*------------attendees-box--------------*/ 
 .attendees-box {
-    width: 50%;
+    width: 60%;
     margin: 40px auto 0;
     text-align: center;
     
 }
 .attendees-index {
     position: relative;
+    width: 95%;
     
 }
 .attendees-titile {
