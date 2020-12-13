@@ -1,6 +1,6 @@
 <div class="attendees-box">
     <div class="attendees-index">
-        <h2 class="attendees-titile">参加者</h2>
+        <h2 class="attendees-titile">参加者: 現在<%= @attendees.count %>人</h2>
         
         <div class="attendees-name-area">
              <%= render partial: 'attendee', collection: @attendees %>
