@@ -10,7 +10,8 @@ class AttendeesController < ApplicationController
     end
     
     def create
-        Attendee.create(attendee_params)
+        attendee = Attendee.create(attendee_params)
+        ContactMailer.send_when_attendee_create(attendee).deliver
         redirect_to attendees_path
     end
     
